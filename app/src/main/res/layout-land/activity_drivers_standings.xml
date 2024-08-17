@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginVertical="20sp"
+    android:layout_marginHorizontal="20sp"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp"
+    tools:context=".DriversStandingsFragment">
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:text="F1 Drivers Standings"/>
+
+    <ListView
+
+        android:id="@+id/driverStandingsListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/intro"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginTop="-125dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="20dp" />
+
+
+</RelativeLayout>

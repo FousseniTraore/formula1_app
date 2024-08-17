@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity"
+    >
+
+    <FrameLayout
+        android:id="@+id/frameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomMenuView" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomMenuView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/btm_menu" />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginVertical="20sp"-->
+<!--        android:layout_marginHorizontal="20sp"-->
+<!--        >-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/formula1_logo"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src=""&ndash;&gt;-->
+<!--&lt;!&ndash;            android:contentDescription="@string/formula1_logo" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/rally"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_below="@+id/formula1_logo"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:src=""&ndash;&gt;-->
+<!--&lt;!&ndash;            android:contentDescription="@string/formula1_logo" />&ndash;&gt;-->
+<!--&lt;!&ndash;        <ProgressBar&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/progressBar"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:visibility="invisible"&ndash;&gt;-->
+<!--&lt;!&ndash;            />&ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/app_name"-->
+
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello World!"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+<!--        <TextView-->
+<!--            android:id="@+id/intro"-->
+<!--            android:layout_below="@+id/app_name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="hello"-->
+<!--            />-->
+<!--        <Button-->
+<!--            android:id="@+id/startbtn"-->
+<!--            android:layout_below="@+id/intro"-->
+<!--            android:text="Get Started"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/textbtn"-->
+<!--            android:layout_below="@+id/startbtn"-->
+<!--            android:text="schedule"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+<!--    </RelativeLayout>-->
+
+
+</RelativeLayout>
